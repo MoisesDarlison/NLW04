@@ -1,0 +1,63 @@
+<style>
+  .container{
+      width: 800px;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      display: flex;
+      flex-direction: column;
+  }
+  .answers{
+      display: flex;
+      width: 350px;
+      justify-content: space-between;
+  }
+
+  .answers a {
+      padding: 10px;
+      background: #8257e6;
+      margin: 1px;
+      color: white;
+      border-radius: 6px;
+      width: 15px;
+      text-align: center;
+      text-decoration: none;
+  }
+  .level{
+      display: flex;
+      margin: 10px;
+      justify-content: space-between;
+      width: 350px;
+  }
+
+</style>
+
+<div class="container">
+    <label>Olá <strong>{{name}}</strong>! Tudo bem?</label>
+
+    <h3>{{title}}</h3>
+    <br />
+    <strong>{{description}}</strong>
+
+<div class="level">
+    <span>Pouco provável</span>
+    <span>Muito provável</span>
+</div>
+    <div class="answers">
+        <a href="{{link}}/01?u={{user_id}}">01</a>
+        <a href="{{link}}/02?u={{user_id}}">02</a>
+        <a href="{{link}}/03?u={{user_id}}">03</a>
+        <a href="{{link}}/04?u={{user_id}}">04</a>
+        <a href="{{link}}/05?u={{user_id}}">05</a>
+        <a href="{{link}}/06?u={{user_id}}">06</a>
+        <a href="{{link}}/07?u={{user_id}}">07</a>
+        <a href="{{link}}/08?u={{user_id}}">08</a>
+        <a href="{{link}}/09?u={{user_id}}">09</a>
+        <a href="{{link}}/10?u={{user_id}}">10</a>
+    </div>
+
+    <br />
+    <br />
+    <strong>Sua Opinião é muito importante para nós!</strong>
+    <h3>Desenvolvedor NodeJs: <strong>Moises Darlison</strong></h3>
+</div>
